@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - ShopEase</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            width: 100%; /* Ensures the background spans the full width */
+            box-sizing: border-box;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%; /* Ensures the footer spans the full width */
+            box-sizing: border-box;
+        }
+
+        /* Table Styling */
+        .image-table {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        .image-table td {
+            padding: 10px; /* Reduced padding to minimize spacing */
+        }
+
+        /* Individual Image Resizing */
+        .smartphone {
+            width: 300px; /* Resize Smartphone Image */
+            height: auto;
+        }
+
+        .headphones {
+            width: 300px; /* Resize Headphones Image */
+            height: auto;
+        }
+
+        .laptop {
+            width: 300px; /* Resize Laptop Image */
+            height: auto;
+        }
+
+        .image-grid {
+            width: 300px; /* Resize Image Grid */
+            height: auto;
+        }
+
+        .data-table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        .data-table th, .data-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .data-table th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Available Items</h2>
+        <p>Browse our quality products below:</p>
+        
+        <!-- Table with Invisible Borders for Page Layout -->
+        <table class="image-table">
+            <tr>
+                <td>
+                    <img src="images/Smartphone.jpeg" alt="Smartphone" class="smartphone">
+                </td>
+                <td>
+                    <img src="images/Headphones.jpeg" alt="Headphones" class="headphones">
+                </td>
+                <td>
+                    <img src="images/Laptop.jpg" alt="Laptop" class="laptop">
+                </td>
+                <td>
+                    <img src="images/Desktop.jpg" alt="Image Grid" class="image-grid">
+                </td>
+                <td>
+                    <img src="images/Tablet.jpg" alt="Image Grid" class="image-grid">
+                </td>
+            </tr>
+        </table>
+
+        <!-- Table with Visible Borders for Data -->
+        <h3>Product Listings</h3>
+        <table class="data-table">
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Smartphone</td>
+                <td>GH₵499</td>
+                <td>Latest model with advanced features.</td>
+            </tr>
+            <tr>
+                <td>Wireless Headphones</td>
+                <td>GH₵199</td>
+                <td>Noise-cancelling technology for clear sound.</td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>GH₵799</td>
+                <td>Lightweight and powerful for all your needs.</td>
+            </tr>
+            <tr>
+                <td>Tablet</td>
+                <td>GH₵699</td>
+                <td>Portable and powerful for all vey surfing needs.</td>
+            </tr>
+            <tr>
+                <td>All-In-One Desktop Computer</td>
+                <td>GH₵2,999</td>
+                <td>An all-in-one powerful state-of-the-art desktop computer for all your IT needs.</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2025 ShopEase. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
